@@ -8,17 +8,17 @@ with open(README, 'r', encoding='utf-8') as fd:
     long_description = fd.read()
 
 setup(
-    name = 'excel-export',
+    name = 'excel-exporter',
     version = "0.1",
     author = 'Zhang Yu',
     author_email = 'zhangyu836@gmail.com',
     url = 'https://github.com/zhangyu836/django-excel-export',
-    packages = ['excel_export'],
-	install_requires = ['xltpl >= 0.9.1', 'pydocxtpl >= 0.2.1', 'six'],
+    packages = ['excel_exporter'],
+    install_requires = ['xltpl >= 0.9.1', 'pydocxtpl >= 0.2.1', 'six'],
     description = ( 'A Django library for exporting data.' ),
     long_description = long_description,
     long_description_content_type = "text/markdown",
     platforms = ["Any platform "],
-    license = 'MIT',
+    license = 'BSD License',
     keywords = ['django', 'Excel', 'xls', 'xlsx', 'spreadsheet', 'workbook', 'template']
 )
