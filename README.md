@@ -1,17 +1,14 @@
 
 # django-excel-export
 
-A Django library for exporting data.
+A Django library for exporting data in xlsx, xls, docx format.
 
 [Live Demo](https://tranquil-tundra-83829.herokuapp.com/)  
 -  User: admin
 -  Password: admin   
 
-[Demo Source Code]()
+[Demo Source Code](https://github.com/zhangyu836/django-excel-export-demo)
 
-Features:
-
-- support xlsx, xls, docx
 
 ## How to install
 
@@ -34,6 +31,10 @@ class PersonAdmin(ExportAdmin):
     
 ```
 ![avatar](./images/person_export.png)
+
+What you get
+
+![avatar](./images/person_xlsx.png)
 
 You can define custom export action and add it to export_actions list:
 
@@ -59,5 +60,8 @@ class PersonaAdmin(ExportAdmin):
     
 ```
 ![avatar](./images/person_export2.png)
+
+What you get
+![avatar](./images/person_docx.png)
 
 See [admin.py](https://github.com/zhangyu836/django-excel-export-demo/blob/main/demo/app/admin.py) in [Demo Source Code](https://github.com/zhangyu836/django-excel-export-demo).
